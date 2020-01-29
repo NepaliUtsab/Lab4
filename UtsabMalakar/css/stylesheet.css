@@ -1,0 +1,16 @@
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th:not(.exclude){
+	width: 10rem;
+}
+
+input{
+	width: 100%;
+	border: 0px;
+	background-color: aquamarine;
+	outline: none;
+}
