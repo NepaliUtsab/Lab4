@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Our Lab 4 Example</title>
+        <link href="style.css" rel="stylesheet" type="text/css">  
+    </head>
+    <body>
+        <h1>Data Entry</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th class="add">Remove Option</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+            <tfoot onkeyup="onEnterPressed(event)">
+                <tr>
+                    <td></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+            </tfoot>
+        </table>
+        <br><br>
+        <button onclick="refreshTable()">Refresh Button</button>
+        <script src="lab4.js" charset="UTF-8"></script>
+    </body>
+</html>
